@@ -1,0 +1,54 @@
+<html>
+	<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+	<title>Mr.Park house</title>
+	<style type="text/css">
+	P{
+		color:white;
+		text-align:center;
+		}
+	h2{
+		color:white;
+	    text-align:center;
+		font-family: "휴먼매직체";
+		}
+	table {
+		background-color:skyblue;
+		margin: 0 auto;
+		}
+	body {
+		background-color:black;
+		}
+	</style>
+	</head>
+	<body>
+	<h2>방명록</h2>
+	<table border="1">
+	<form action="./index.php" method="GET">
+	<tr>
+		<td>글쓴이 : <input type="text" id="name1" name="name1"></input></td>
+	</tr>
+	<tr>
+		<td>제목 : <input type="text"id="title1"name="title1"></input></td>
+	</tr>
+	<tr>
+		<td>내용 <textarea type="text" id="txt1"name="txt1" rows="25px" cols="100px">
+			 </textarea></td>
+	</tr>
+	<tr>
+		<td> <input type="submit" value="방명록남기기">
+		</td>
+	</tr>
+	<tr>
+		<td><a href='./list.php'>방명록 리스트 확인</button></a>
+		</td>
+	</tr>
+	</form>
+	</table>
+	
+	<script type="text/javascript" src="https://jsgetip.appspot.com">
+	</script>
+	<P>당신의 IP:<script>document.write( ip() ); </script>
+	
+	</body>
+</html>
