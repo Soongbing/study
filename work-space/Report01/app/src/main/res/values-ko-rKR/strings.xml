@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">과제01</string>
+    <string name="name">이름 : 박순빈</string>
+    <String name="number">학번 : 20130655</String>
+</resources>

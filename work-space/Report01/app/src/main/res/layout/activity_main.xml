@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="20dp"
+        android:text="@string/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20dp"
+       android:text="@string/"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20dp"
+        android:text="학과: 일본어창의융합부"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20dp"
+        android:text="진로방향 : SW개발"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20dp"
+        android:text="취미 : 요리"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+    android:layout_width="143dp"
+    android:layout_height="104dp"
+    android:src="@drawable/hong" />
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="104dp"
+        android:src="@drawable/yi" />
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="82dp"
+        android:src="@drawable/ten" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="20dp"
+            android:text="홍소육 红烧肉"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:text="   어향육슬  鱼香肉丝 "
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:text="새우튀김"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <CheckedTextView
+        android:checked="true"
+        android:checkMark="?android:attr/listChoiceIndicatorSingle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JLPT 1급 자격증 여부"
+        android:textSize="10pt" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="일본어 실력 : "
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <RatingBar
+        android:numStars="5"
+        android:rating="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<TextView
+    android:textSize="30dp"
+    android:text="부산외국어대학교"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+        <Button
+            android:onClick="onClick"
+            android:textSize="20dp"
+            android:text="바로가기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="30dp"
+            android:text="조치영 교수님 홈페이지"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:onClick="Click"
+            android:textSize="20dp"
+            android:text="바로가기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

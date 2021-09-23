@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<EditText
+    android:hint="이곳은 제목을 넣는 곳입니다."
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="300px" />
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<Button
+    android:layout_weight="1"
+
+android:text="버튼1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize="15pt"/>
+<Button
+    android:layout_weight="1"
+
+android:textSize="15pt"
+android:text="버튼2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" />
+</LinearLayout>
+
+
+    </FrameLayout>
